@@ -1,0 +1,1 @@
+zipline run -f tradeSPY.py -s 2017-12-1 -e 2018-1-1 -o tradeTQQQData.pickle --capital-base 1000.0 -b quantopian-quandl
