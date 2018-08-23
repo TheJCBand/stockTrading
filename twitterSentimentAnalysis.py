@@ -14,11 +14,11 @@ searchTerm = 'syria'
 if not os.path.exists('twitterData'):
     os.makedirs('twitterData')
 
-consumer_key = 'X97LPOOOrNAAJMXoqEgwRK2V7'
-consumer_secret = 'JLtzGigHUSYvuDasItILwnhXpVGsbH97MulswuxCjUi963rIYW'
+consumer_key = ''
+consumer_secret = ''
 
-access_token = '821278473453006849-BGqNrsFjS1OsOyIppvu143k0Z0Kbari'
-access_token_secret = 	'uJX0d14vXGJrF5vA7PJBAN1u8V6MZDvMYEgQJYvHLbLAr'
+access_token = ''
+access_token_secret = 	''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
